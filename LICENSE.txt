@@ -1,0 +1,11 @@
+Copyright (c) 2026 JimJAmes. All rights reserved.
+
+Permission is granted to view this source for security review and to compile
+and test it privately for evaluating or using the official mod release.
+Publication of this source does not grant permission to redistribute the
+source, compiled binaries, modified versions or mod-specific assets, or to
+incorporate them into another project without prior written permission from
+JimJAmes, except where required by applicable law or the hosting platform's
+terms. Original game and third-party rights remain with their respective owners.
+
+THE SOFTWARE IS PROVIDED AS IS, WITHOUT WARRANTY OF ANY KIND.

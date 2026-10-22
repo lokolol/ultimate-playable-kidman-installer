@@ -1,0 +1,39 @@
+{
+  "release": "R509",
+  "installer_sha256": "f9200863614e4cf5ef29e835e9229f0e496526caceaa33f707b3f9aea5e1c206",
+  "manifest_sha256": "189e43a8ba46f7e03c5d0010b8d7d565468b57fd1e2663c3344660cbe37d799f",
+  "tools_zip_sha256": "475ae2b4f591c4edf7268cf618bb2934830c539186d299832c563fa3e001b8be",
+  "public_source_hashes": {
+    "Engine.cs": "7d221cbd4b899f20f93dbf602adb38b03aa8138b663e0b411dc2c3a69d1fe2a8",
+    "Launcher.cs": "73d00fc8f7ba0d0b97d01ad9a72c0f5f5b492b596eea78e31ad212b38e063bc0",
+    "Tests.cs": "e8661cdf2c0873bad821a26c94c5ae45f2b2e6efd8d9cc274d44e02ffe7f218a"
+  },
+  "synthetic_tests": 20,
+  "native_atlas_tests": 1,
+  "test_results": [
+    "PASS install, exact output, idempotence and uninstall",
+    "PASS wrong original rejected before changes",
+    "PASS corrupt full payload rejected before game changes",
+    "PASS corrupt patch rejected before changes",
+    "PASS cancel during staging preserves game",
+    "PASS failure after backup restores missing target",
+    "PASS failure after append rolls back copies and patch",
+    "PASS interrupted-install journal recovers partial patch and moved file",
+    "PASS restore refuses later user edits",
+    "PASS path traversal and unsupported executable rejected",
+    "PASS R461 journal upgrade and two-step restoration",
+    "PASS R464 journal upgrade and two-step restoration",
+    "PASS R466 journal upgrade and two-step restoration",
+    "PASS R472 journal upgrade and two-step restoration",
+    "PASS R478 journal upgrade and two-step restoration",
+    "PASS R483 journal upgrade and two-step restoration",
+    "PASS R485 journal upgrade and two-step restoration",
+    "PASS separate installer and selected content folder",
+    "PASS R485 atlas upgrade and exact two-step restoration",
+    "PASS corrupt atlas upgrade rejected before changes",
+    "PASS real native atlas: exact install and restore with64bit offsets",
+    "ALL TESTS PASSED"
+  ],
+  "display_fix_included": false,
+  "separate_content_supported": true
+}

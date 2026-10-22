@@ -1,0 +1,8 @@
+{
+  "release": "R509",
+  "author": "JimJAmes",
+  "manifest_sha256": "189e43a8ba46f7e03c5d0010b8d7d565468b57fd1e2663c3344660cbe37d799f",
+  "distributed_gameplay_dll_sha256": "63e02026666dc0eee42146b8e905aa14add8df7a2e27093c379a2d90fd2fe680",
+  "dll_source_status": "Not included: current complete buildable sources are unavailable. This repository covers the installer only.",
+  "distributed_installer_sha256": "f9200863614e4cf5ef29e835e9229f0e496526caceaa33f707b3f9aea5e1c206"
+}
