@@ -1,16 +1,16 @@
 # Ultimate Playable Kidman — installer source and tools
 
-By **JimJAmes**. Source for the Windows x64 R537 installer for The Evil Within.
+By **JimJAmes**. Source for the Windows x64 R558 installer for The Evil Within.
 This is source available for inspection and private builds under the included
 restrictive license, not an open-source license.
 
 ## Download and install
 
-1. Download the matching **R537 Content** ZIP from the mod's Nexus page and extract it completely.
-2. Open [Releases](https://github.com/lokolol/ultimate-playable-kidman-installer/releases/tag/R537) and download `Ultimate_Playable_Kidman_R537_Installer.zip`.
+1. Download the matching **R558 Content** ZIP from the mod's Nexus page and extract it completely.
+2. Open [Releases](https://github.com/lokolol/ultimate-playable-kidman-installer/releases/tag/R558) and download `Ultimate_Playable_Kidman_R558_Installer.zip`.
 3. Extract the tools ZIP. Keep `Install.exe` and `PAYLOAD_MANIFEST.json` together.
 4. Close The Evil Within and run `Install.exe`.
-5. Select the game folder containing `EvilWithin.exe`, then click **Install R537**.
+5. Select the game folder containing `EvilWithin.exe`, then click **Install R558**.
 6. When prompted, select the extracted Nexus folder containing `Payload`.
 7. Wait for completion and launch the game through Steam.
 
@@ -34,7 +34,7 @@ disclosed separately to reviewers.
 
 ## Build and test
 
-Download `Ultimate_Playable_Kidman_R537_Source.zip` from the matching release
+Download `Ultimate_Playable_Kidman_R558_Source.zip` from the matching release
 and extract it. Run the commands below from that extracted source folder.
 
 Requirements: Windows x64, Windows PowerShell 5.1 or later, and the .NET Framework
@@ -46,13 +46,13 @@ No NuGet, Python, network or game installation is needed for the source build.
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\Build.ps1
 ```
 
-The script compiles `build/Install.exe` and runs 20 isolated synthetic tests.
+The script compiles `build/Install.exe` and runs 23 isolated synthetic tests.
 Fixtures are created in a unique `UPK_...` folder under Windows TEMP, then
 removed on success. Results remain in `build/test_results.txt`. Tests cover
 exact installation/restoration, idempotence, invalid/corrupt inputs, cancellation,
 rollback, interruption recovery, path validation, preserving later edits,
 R461/464/466/472/478/483/485 journals, separate installer/content folders, and
-R485 atlas upgrades, and R509 journal upgrades with exact two-step restoration.
+R485 atlas upgrades, and R509/R537 journal upgrades with exact two-step restoration.
 
 To validate the official manifest during compilation:
 

@@ -1,4 +1,4 @@
-# Build verification — R537
+# Build verification — R558
 
 Verified on Windows x64 using the .NET Framework C# compiler.
 
@@ -6,13 +6,13 @@ The distributed installer is compiled directly from the three C# source files
 in src/. Their SHA-256 hashes, the distributed Install.exe hash and the pinned
 manifest hash are recorded in verification.json and release.json.
 
-All 20 isolated synthetic tests passed. They cover exact installation and
+All 23 isolated synthetic tests passed. They cover exact installation and
 restoration, rollback and interrupted-install recovery, invalid/corrupt inputs,
-R509 journal migration, separate installer/content folders, and known atlas
-upgrade behavior. The R537 build did not rerun the prior private real-game-atlas
+R509/R537 journal migration, separate installer/content folders, and known atlas
+upgrade behavior. The R558 build did not rerun the prior private real-game-atlas
 fixture test; no real game files were modified by the synthetic tests.
 
-R537 separates the installer/manifest download from the Nexus content. Tests
+R558 separates the installer/manifest download from the Nexus content. Tests
 cover installation from a separately selected content folder and restoration
 without that content. Atlas tests cover upgrading from the previously installed
 R485 atlas and R509 journal, exact two-step restoration and corrupt-upgrade
