@@ -1,15 +1,10 @@
 {
-  "release": "R509",
-  "installer_sha256": "f9200863614e4cf5ef29e835e9229f0e496526caceaa33f707b3f9aea5e1c206",
-  "manifest_sha256": "189e43a8ba46f7e03c5d0010b8d7d565468b57fd1e2663c3344660cbe37d799f",
-  "tools_zip_sha256": "475ae2b4f591c4edf7268cf618bb2934830c539186d299832c563fa3e001b8be",
-  "public_source_hashes": {
-    "Engine.cs": "7d221cbd4b899f20f93dbf602adb38b03aa8138b663e0b411dc2c3a69d1fe2a8",
-    "Launcher.cs": "73d00fc8f7ba0d0b97d01ad9a72c0f5f5b492b596eea78e31ad212b38e063bc0",
-    "Tests.cs": "e8661cdf2c0873bad821a26c94c5ae45f2b2e6efd8d9cc274d44e02ffe7f218a"
-  },
+  "release": "R537",
+  "author": "JimJAmes",
+  "manifest_sha256": "f80af8ba174ff331bb0f8a1b0db4419d2e623a64b7d92b554e0cc4b6482dea6d",
+  "installer_sha256": "b6ce742e739da1c085d6ac52f70a50564966521f8b95d39fb02d25aeea8a9804",
+  "distributed_gameplay_dll_sha256": "937e690a01eb40fec68e97bababd476b3c5b67ddf35c4181fd8cf0c0e3eea198",
   "synthetic_tests": 20,
-  "native_atlas_tests": 1,
   "test_results": [
     "PASS install, exact output, idempotence and uninstall",
     "PASS wrong original rejected before changes",
@@ -28,12 +23,11 @@
     "PASS R478 journal upgrade and two-step restoration",
     "PASS R483 journal upgrade and two-step restoration",
     "PASS R485 journal upgrade and two-step restoration",
+    "PASS R509 journal upgrade and two-step restoration",
     "PASS separate installer and selected content folder",
     "PASS R485 atlas upgrade and exact two-step restoration",
-    "PASS corrupt atlas upgrade rejected before changes",
-    "PASS real native atlas: exact install and restore with64bit offsets",
-    "ALL TESTS PASSED"
+    "PASS corrupt atlas upgrade rejected before changes"
   ],
   "display_fix_included": false,
-  "separate_content_supported": true
+  "source_scope": "Installer source only; current complete buildable gameplay DLL source remains unavailable as recorded in release.json."
 }
