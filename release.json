@@ -1,8 +1,8 @@
 {
-  "release": "R558",
+  "release": "R631",
   "author": "JimJAmes",
-  "manifest_sha256": "85a450db4963643bb28a33c41d307993def3e154dec44f3f1acd602aea7d0198",
-  "distributed_gameplay_dll_sha256": "c1fa633448af1d802de1e8fb9106bc4398bb0c1a029e5b1187042a500114ff39",
+  "manifest_sha256": "35af5f3f195e8777d755fb4187a41749e47f729dcbbcbfd65bde959623e86b15",
+  "distributed_gameplay_dll_sha256": "97731f5ff50555b1af6cd40f8cdbbdcadb973a09e8a6b129f1bbd6bfb8f5f433",
   "dll_source_status": "Not included: current complete buildable sources are unavailable. This repository covers the installer only.",
-  "distributed_installer_sha256": "92692403ed6c081583936d79648deaaaef7f893cc740f855ea54724e8d8b525a"
+  "distributed_installer_sha256": "b3cd824bf0ef1a4b678db3039914db59789b229bce24b9d2e2108396941f5734"
 }

@@ -1,5 +1,5 @@
 {
-  "release": "R558",
+  "release": "R631",
   "tests": [
     "PASS install, exact output, idempotence and uninstall",
     "PASS hearing settings append preserves default config and restores exactly",
@@ -21,18 +21,24 @@
     "PASS R485 journal upgrade and two-step restoration",
     "PASS R509 journal upgrade and two-step restoration",
     "PASS R537 journal upgrade and two-step restoration",
+    "PASS R558 journal upgrade and two-step restoration",
     "PASS separate installer and selected content folder",
     "PASS R485 atlas upgrade and exact two-step restoration",
     "PASS corrupt atlas upgrade rejected before changes",
     "ALL TESTS PASSED"
   ],
-  "source_sha256": {
-    "Build.ps1": "4aae7301388dba050cc1ecf0e27610b15a62d86c73c8269d68d28d22c7269c95",
-    "src/Engine.cs": "220b5f9a7d33a82f538a2d09baaa78a9f72b9afc4e3d49bd4034584d3d59a3d4",
-    "src/Launcher.cs": "73160d9e51ca2dac0aed7ad75de5518fa6945db971d8467ffec72f1219a44fe9",
-    "src/Tests.cs": "6339d3de66ad510d587f1af97a3b38e754ddac27e6b1b83b28f1ad56219d97a2"
-  },
+  "optional_tests": [
+    "PASS option off preserves Steam API",
+    "PASS option install, idempotence, restore with checkbox off",
+    "PASS unknown Steam proxy refused without game changes",
+    "PASS unknown companion preserved",
+    "PASS failed optional install rolls back campaign and DLLs",
+    "PASS standalone option transaction preserves existing campaign journal",
+    "PASS later Steam API edits block restore",
+    "ALL OPTIONAL TESTS PASSED"
+  ],
+  "manifest_sha256": "35af5f3f195e8777d755fb4187a41749e47f729dcbbcbfd65bde959623e86b15",
+  "installer_sha256": "b3cd824bf0ef1a4b678db3039914db59789b229bce24b9d2e2108396941f5734",
   "display_fix_included": false,
-  "manifest_sha256": "85a450db4963643bb28a33c41d307993def3e154dec44f3f1acd602aea7d0198",
-  "installer_sha256": "92692403ed6c081583936d79648deaaaef7f893cc740f855ea54724e8d8b525a"
+  "death_delay20_included": false
 }
