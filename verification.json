@@ -1,5 +1,5 @@
 {
-  "release": "R631",
+  "release": "R683",
   "tests": [
     "PASS install, exact output, idempotence and uninstall",
     "PASS hearing settings append preserves default config and restores exactly",
@@ -22,6 +22,7 @@
     "PASS R509 journal upgrade and two-step restoration",
     "PASS R537 journal upgrade and two-step restoration",
     "PASS R558 journal upgrade and two-step restoration",
+    "PASS R631 journal upgrade and two-step restoration",
     "PASS separate installer and selected content folder",
     "PASS R485 atlas upgrade and exact two-step restoration",
     "PASS corrupt atlas upgrade rejected before changes",
@@ -37,8 +38,8 @@
     "PASS later Steam API edits block restore",
     "ALL OPTIONAL TESTS PASSED"
   ],
-  "manifest_sha256": "35af5f3f195e8777d755fb4187a41749e47f729dcbbcbfd65bde959623e86b15",
-  "installer_sha256": "b3cd824bf0ef1a4b678db3039914db59789b229bce24b9d2e2108396941f5734",
+  "manifest_sha256": "b1ac999ded56c49abe5042b2cf3b1fbb49c43b1c8e72b7b72c8ca2fa8c5ca054",
+  "installer_sha256": "2e3ff44ab3643ef58d213574e7a73800e2874f14c7da94cbd2910661cda4f842",
   "display_fix_included": false,
   "death_delay20_included": false
 }
