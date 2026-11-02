@@ -1,5 +1,5 @@
 {
-  "release": "R683",
+  "release": "R692",
   "tests": [
     "PASS install, exact output, idempotence and uninstall",
     "PASS hearing settings append preserves default config and restores exactly",
@@ -21,6 +21,7 @@
     "PASS R485 journal upgrade and two-step restoration",
     "PASS R509 journal upgrade and two-step restoration",
     "PASS R537 journal upgrade and two-step restoration",
+    "PASS R683 journal upgrade and two-step restoration",
     "PASS R558 journal upgrade and two-step restoration",
     "PASS R631 journal upgrade and two-step restoration",
     "PASS separate installer and selected content folder",
@@ -38,8 +39,8 @@
     "PASS later Steam API edits block restore",
     "ALL OPTIONAL TESTS PASSED"
   ],
-  "manifest_sha256": "b1ac999ded56c49abe5042b2cf3b1fbb49c43b1c8e72b7b72c8ca2fa8c5ca054",
-  "installer_sha256": "2e3ff44ab3643ef58d213574e7a73800e2874f14c7da94cbd2910661cda4f842",
+  "manifest_sha256": "933efbb1d69cd9bf320ade89f9398c9044e511ec9e5e625610b047c202cd8dc6",
+  "installer_sha256": "5fa2bdbed05b001a255a73028875556583d91a3181dedd3b45b17ad45bd7dd7b",
   "display_fix_included": false,
   "death_delay20_included": false
 }
