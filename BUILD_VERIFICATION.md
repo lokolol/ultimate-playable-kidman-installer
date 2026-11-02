@@ -1,4 +1,4 @@
-# Build verification — R692
+# Build verification — R702
 
 Verified on Windows x64 using the .NET Framework C# compiler.
 
@@ -9,10 +9,10 @@ manifest hash are recorded in verification.json and release.json.
 All 26 isolated synthetic tests passed. They cover exact installation and
 restoration, rollback and interrupted-install recovery, invalid/corrupt inputs,
 R509/R537 journal migration, separate installer/content folders, and known atlas
-upgrade behavior. The R692 build did not rerun the prior private real-game-atlas
+upgrade behavior. The R702 build did not rerun the prior private real-game-atlas
 fixture test; no real game files were modified by the synthetic tests.
 
-R692 separates the installer/manifest download from the Nexus content. Tests
+R702 separates the installer/manifest download from the Nexus content. Tests
 cover installation from a separately selected content folder and restoration
 without that content. Atlas tests cover upgrading from the previously installed
 R485 atlas and R509 journal, exact two-step restoration and corrupt-upgrade

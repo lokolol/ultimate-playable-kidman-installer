@@ -1,16 +1,16 @@
 # Ultimate Playable Kidman — installer source and tools
 
-By **JimJAmes**. Source for the Windows x64 R692 installer for The Evil Within.
+By **JimJAmes**. Source for the Windows x64 R702 installer for The Evil Within.
 This is source available for inspection and private builds under the included
 restrictive license, not an open-source license.
 
 ## Download and install
 
-1. Download the matching **R692 Content** ZIP from the mod's Nexus page and extract it completely.
-2. Open [Releases](https://github.com/lokolol/ultimate-playable-kidman-installer/releases/tag/R692) and download `Ultimate_Playable_Kidman_R692_Installer.zip`.
+1. Download the matching **R702 Content** ZIP from the mod's Nexus page and extract it completely.
+2. Open [Releases](https://github.com/lokolol/ultimate-playable-kidman-installer/releases/tag/R702) and download `Ultimate_Playable_Kidman_R702_Installer.zip`.
 3. Extract the tools ZIP. Keep `Install.exe` and `PAYLOAD_MANIFEST.json` together.
 4. Close The Evil Within and run `Install.exe`.
-5. Select the game folder containing `EvilWithin.exe`, then click **Install R692**.
+5. Select the game folder containing `EvilWithin.exe`, then click **Install R702**.
 6. When prompted, select the extracted Nexus folder containing `Payload`.
 7. Wait for completion and launch the game through Steam.
 
@@ -34,7 +34,7 @@ disclosed separately to reviewers.
 
 ## Build and test
 
-Download `Ultimate_Playable_Kidman_R692_Source.zip` from the matching release
+Download `Ultimate_Playable_Kidman_R702_Source.zip` from the matching release
 and extract it. Run the commands below from that extracted source folder.
 
 Requirements: Windows x64, Windows PowerShell 5.1 or later, and the .NET Framework
@@ -83,6 +83,6 @@ display settings. See `BUILD_VERIFICATION.md` and `verification.json`.
 
 ## Optional DLC component (installer build R622)
 
-The optional SmokeAPI checkbox is unchecked by default. It uses the two unmodified, hash-pinned DLLs in `Optional/FightingChance`; unknown installed Steam API replacements are refused. Both previous files are journaled and restored by Restore previous files, even when the checkbox is unchecked. The optional file sources stay alongside the installer when Nexus content is selected from another folder. R692 includes this optional installer feature alongside the updated campaign content manifest. The option remains disabled by default.
+The optional SmokeAPI checkbox is unchecked by default. It uses the two unmodified, hash-pinned DLLs in `Optional/FightingChance`; unknown installed Steam API replacements are refused. Both previous files are journaled and restored by Restore previous files, even when the checkbox is unchecked. The optional file sources stay alongside the installer when Nexus content is selected from another folder. R702 includes this optional installer feature alongside the updated campaign content manifest. The option remains disabled by default.
 
 Build.ps1 additionally compiles a standalone maintenance helper and, when the optional binaries are present, runs seven isolated option tests covering default-off behavior, install/restore/idempotence, unknown DLL refusal, rollback after a partial install, independent journals and preservation of later edits. The helper is not included in the user-facing installer delivery. Third-party credits are in Optional/FightingChance/THIRD_PARTY.txt.

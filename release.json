@@ -1,8 +1,8 @@
 {
-  "release": "R692",
+  "release": "R702",
   "author": "JimJAmes",
-  "manifest_sha256": "933efbb1d69cd9bf320ade89f9398c9044e511ec9e5e625610b047c202cd8dc6",
-  "distributed_gameplay_dll_sha256": "d631834fa8452d6cc0b80e4e01137aa747232142f441348648893b81cc0422ac",
+  "manifest_sha256": "0e4229ba0e44b7819033fb7c21d77c18ebb3fc60b47caee82c10a5088de46c86",
+  "distributed_gameplay_dll_sha256": "f56e4a23bcef898cd0c60aea9a03c512f0776dd9e400debdceb835c3143e2a1a",
   "dll_source_status": "Not included: current complete buildable sources are unavailable. This repository covers the installer only.",
-  "distributed_installer_sha256": "5fa2bdbed05b001a255a73028875556583d91a3181dedd3b45b17ad45bd7dd7b"
+  "distributed_installer_sha256": "301a43552aa5a39f1fb14215de34094f3ff8dd433e562c2c3cb3128e89b6bfb0"
 }
